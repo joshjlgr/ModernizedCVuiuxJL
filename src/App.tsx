@@ -88,9 +88,9 @@ export default function App() {
   ];
 
   const skills = [
-    { name: "Information Architecture", level: 90 },
+    { name: "Information Architecture", level: 95 },
     { name: "Design Principles", level: 85 },
-    { name: "Design Thinking", level: 95 },
+    { name: "Design Thinking", level: 85 },
     { name: "Human Centred Design", level: 90 },
     { name: "Wireframing", level: 95 },
     { name: "Prototyping", level: 88 },
@@ -156,11 +156,27 @@ export default function App() {
             <div className="space-y-6">
               <div>
                 <h4 className="text-sm font-bold text-zinc-900">B.S. Business w Communications</h4>
-                <p className="text-xs font-medium text-zinc-500 uppercase tracking-wider mb-1">SUSS | 2009 – 2011</p>
+                <a 
+                  href="https://www.suss.edu.sg/academics/schools-college/suss-schools/school-of-business" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-xs font-medium text-zinc-500 uppercase tracking-wider mb-1 hover:text-zinc-900 transition-colors flex items-center gap-1"
+                >
+                  SUSS | 2009 – 2011
+                  <ExternalLink className="w-2.5 h-2.5" />
+                </a>
               </div>
               <div>
                 <h4 className="text-sm font-bold text-zinc-900">B.S. Computer Science</h4>
-                <p className="text-xs font-medium text-zinc-500 uppercase tracking-wider mb-1">OXFORD BROOKES | 2016 – 2019</p>
+                <a 
+                  href="https://www.brookes.ac.uk/courses/undergraduate/computer-science" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-xs font-medium text-zinc-500 uppercase tracking-wider mb-1 hover:text-zinc-900 transition-colors flex items-center gap-1"
+                >
+                  OXFORD BROOKES | 2016 – 2019
+                  <ExternalLink className="w-2.5 h-2.5" />
+                </a>
               </div>
             </div>
           </Section>
@@ -257,9 +273,9 @@ export default function App() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {[
                 { 
-                  name: "Business Analysis Certification", 
-                  school: "IIL",
-                  url: "https://media.licdn.com/dms/image/v2/D562DAQGxihzUxkdq5w/profile-treasury-document-images_1280/profile-treasury-document-images_1280/1/1689787878270?e=1775088000&v=beta&t=ymPfLk-xRovsj3xI6w2K2pFfJhIb1VlfvDZGWpORz0M"
+                  name: "AI Mastermind", 
+                  school: "OutSkill",
+                  url: "https://www.outskill.com/"
                 },
                 { 
                   name: "UIUX Design Program", 
@@ -282,9 +298,9 @@ export default function App() {
                   url: "https://media.licdn.com/dms/image/v2/D562DAQG3SizlDXyGYA/profile-treasury-document-images_1280/B56Zg4ICh3G4AU-/1/1753288293478?e=1775088000&v=beta&t=E7lxuSTA1FWpaP4VnNUJEb7RliOACWQV9AqPzsa5cHc"
                 },
                 { 
-                  name: "AI Mastermind", 
-                  school: "OutSkill",
-                  url: "https://www.outskill.com/"
+                  name: "Business Analysis Certification", 
+                  school: "IIL",
+                  url: "https://media.licdn.com/dms/image/v2/D562DAQGxihzUxkdq5w/profile-treasury-document-images_1280/profile-treasury-document-images_1280/1/1689787878270?e=1775088000&v=beta&t=ymPfLk-xRovsj3xI6w2K2pFfJhIb1VlfvDZGWpORz0M"
                 },
                 { 
                   name: "Full Stack Java Developer", 

@@ -79,12 +79,12 @@ const ExperienceItem = ({ title, company, period, description }: { title: string
 
 export default function App() {
   const contactLinks = [
-    { name: "Whatsapp", icon: MessageSquare, url: "https://wa.me/yournumber", color: "hover:text-green-600" },
+    { name: "Whatsapp", icon: MessageSquare, url: "https://wa.me/6582030020?text=WhatsApp", color: "hover:text-green-600" },
     { name: "Email", icon: Mail, url: "mailto:j05hl1m@live.com", color: "hover:text-blue-600" },
-    { name: "Behance", icon: Layout, url: "https://behance.net/yourprofile", color: "hover:text-blue-500" },
-    { name: "Figma", icon: Figma, url: "https://figma.com/@yourprofile", color: "hover:text-purple-500" },
-    { name: "Github", icon: Github, url: "https://github.com/yourprofile", color: "hover:text-zinc-900" },
-    { name: "Portfolio", icon: Globe, url: "https://yourportfolio.com", color: "hover:text-zinc-600" },
+    { name: "Behance", icon: Layout, url: "https://www.behance.net/joshlim13", color: "hover:text-blue-500" },
+    { name: "Figma", icon: Figma, url: "https://www.figma.com/design/Ligql2F5F0eRHYXW8XEWyT/Mobile-App-ReDesign---Kitchen-Stories--Version-2-by-Josh-Lim?node-id=0-1&t=7pMCf1xSaNm8OSnS-1", color: "hover:text-purple-500" },
+    { name: "Github", icon: Github, url: "https://github.com/joshjlgr", color: "hover:text-zinc-900" },
+    { name: "Portfolio", icon: Globe, url: "https://www.thecn.com/JG282", color: "hover:text-zinc-600" },
   ];
 
   const skills = [
@@ -99,9 +99,9 @@ export default function App() {
   ];
 
   const techStack = [
-    "HTML5", "CSS3", "JavaScript", "React", "Vue JS", "NodeJS", "Tailwindcss", "Typescript", 
-    "Figma", "Photoshop", "Git", "MySQL", "PHP", "Python", "Gemini", "Emergent", "Firebase",
-    "Notion", "Copilot"
+    "HTML5", "CSS3", "JavaScript", "React", "WordPress", "WooCommerce", "NodeJS", "Tailwindcss", "Typescript", 
+    "Figma", "Photoshop", "Git", "MySQL", "PHP", "Python", "jquery", "AJAX", "JSON", "DevTools", "ChatGPT", "Gemini", "Claude",
+    "Notion", "Copilot", "ServiceNow", "Bash", "NPM", "Perplexity", "Emergent", "Grok", "Canva", "Jira", "PowerShell", "Lightroom"
   ];
 
   const hobbies = [
@@ -174,14 +174,44 @@ export default function App() {
           </Section>
 
           <Section title="Awards" icon={Award}>
-            <ul className="space-y-3">
-              {["Employee of the month", "Student Leader at Internship", "Initiative award Community Svc"].map((award, i) => (
-                <li key={i} className="flex items-center gap-3 text-sm text-zinc-600">
-                  <Trophy className="w-4 h-4 text-zinc-400" />
-                  {award}
+            <ul className="space-y-4">
+              {[
+                { 
+                  name: "Student Leader at Internship", 
+                  url: "https://media.licdn.com/dms/image/v2/D562DAQGfjjZiO0AFdQ/profile-treasury-document-images_1920/B56ZswR2LAJ4A0-/1/1766041545742?e=1775088000&v=beta&t=e3-jNhsiBGqOPtbhuwBOFQ76t21Gc0EdCRMCE5hQw9U" 
+                },
+                { 
+                  name: "Initiative award Community Svc", 
+                  url: "https://media.licdn.com/dms/image/v2/D562DAQE1V0tqN_iJDg/profile-treasury-image-shrink_1280_1280/B56Zik.ghuHQAk-/0/1755114508288?e=1775055600&v=beta&t=KhGMhNHR08rokmQIvfCdQud0O2PmVueU8DGVFMtc9G4" 
+                }
+              ].map((award, i) => (
+                <li key={i} className="group">
+                  <a 
+                    href={award.url} 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="flex items-start gap-3 text-sm text-zinc-600 hover:text-zinc-900 transition-colors"
+                  >
+                    <Trophy className="w-4 h-4 mt-0.5 text-zinc-400 group-hover:text-zinc-900 transition-colors" />
+                    <span className="flex-1 leading-tight">{award.name}</span>
+                    <ExternalLink className="w-3 h-3 mt-1 opacity-0 group-hover:opacity-100 transition-opacity text-zinc-400" />
+                  </a>
                 </li>
               ))}
             </ul>
+          </Section>
+
+          <Section title="Tech Stack" icon={Code2}>
+            <div className="flex flex-wrap gap-2">
+              {techStack.map((tech) => (
+                <span 
+                  key={tech} 
+                  className="px-3 py-1.5 bg-white border border-zinc-200 rounded-md text-xs font-medium text-zinc-600 hover:border-zinc-900 hover:text-zinc-900 transition-all cursor-default"
+                >
+                  {tech}
+                </span>
+              ))}
+            </div>
           </Section>
         </aside>
 
@@ -223,33 +253,70 @@ export default function App() {
             />
           </Section>
 
-          <Section title="Tech Stack" icon={Code2}>
-            <div className="flex flex-wrap gap-2">
-              {techStack.map((tech) => (
-                <span 
-                  key={tech} 
-                  className="px-3 py-1.5 bg-white border border-zinc-200 rounded-md text-xs font-medium text-zinc-600 hover:border-zinc-900 hover:text-zinc-900 transition-all cursor-default"
-                >
-                  {tech}
-                </span>
-              ))}
-            </div>
-          </Section>
-
           <Section title="Courses" icon={BookOpen}>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {[
-                { name: "UIUX Design Program", school: "SIT" },
-                { name: "Front End Development", school: "Great Learning" },
-                { name: "Material CSS", school: "Udemy" },
-                { name: "Adobe Campaign", school: "Adobe Digital Learning" },
-                { name: "AI Mastermind", school: "OutSkill" },
-                { name: "Full Stack Java Developer", school: "NTUC Learning Hub" }
+                { 
+                  name: "Business Analysis Certification", 
+                  school: "IIL",
+                  url: "https://media.licdn.com/dms/image/v2/D562DAQGxihzUxkdq5w/profile-treasury-document-images_1280/profile-treasury-document-images_1280/1/1689787878270?e=1775088000&v=beta&t=ymPfLk-xRovsj3xI6w2K2pFfJhIb1VlfvDZGWpORz0M"
+                },
+                { 
+                  name: "UIUX Design Program", 
+                  school: "SIT", 
+                  url: "https://media.licdn.com/dms/image/v2/D562DAQG7imwUJXN3Bg/profile-treasury-document-images_1280/B56Zm68tr6G4AU-/1/1759778104747?e=1775088000&v=beta&t=qtW3yywexlfBf4xGj_4gRVoNXqZHaWMUfIpSWLCJA9s" 
+                },
+                { 
+                  name: "Front End Development", 
+                  school: "Great Learning",
+                  url: "https://media.licdn.com/dms/image/v2/D562DAQEd1Jd61QUdxw/profile-treasury-document-images_1280/B56Z0lbKKeJQAU-/1/1774449372406?e=1775088000&v=beta&t=3lUPtwPaLxvY-MhxabDflRv7K9gqq_mhwNlvWzENDJI"
+                },
+                { 
+                  name: "Material CSS", 
+                  school: "Udemy",
+                  url: "https://media.licdn.com/dms/image/v2/D562DAQELNx_h_nc5yw/profile-treasury-document-images_1280/B56Zg4Id.XHMAc-/1/1753288402520?e=1775088000&v=beta&t=8y2x3-CIoBRMIdd5kS2qnVSFORYDrFnQ4YgboYm3TYc"
+                },
+                { 
+                  name: "Adobe Campaign", 
+                  school: "Adobe Digital Learning",
+                  url: "https://media.licdn.com/dms/image/v2/D562DAQG3SizlDXyGYA/profile-treasury-document-images_1280/B56Zg4ICh3G4AU-/1/1753288293478?e=1775088000&v=beta&t=E7lxuSTA1FWpaP4VnNUJEb7RliOACWQV9AqPzsa5cHc"
+                },
+                { 
+                  name: "AI Mastermind", 
+                  school: "OutSkill",
+                  url: "https://www.outskill.com/"
+                },
+                { 
+                  name: "Full Stack Java Developer", 
+                  school: "NTUC Learning Hub",
+                  url: "https://media.licdn.com/dms/image/v2/D562DAQFpHP6up09gSw/profile-treasury-document-cover-images_1280/profile-treasury-document-cover-images_1280/0/1706251657335?e=1775055600&v=beta&t=6Agso1FPRK7mTUEEy-YBVZx8en3HRn7hoZ1t_OCAYpI"
+                },
+                { 
+                  name: "Lean Six Sigma", 
+                  school: "HEWLETT PACKARD",
+                  url: "https://media.licdn.com/dms/image/v2/D562DAQEgF5NSD-8JJA/profile-treasury-document-images_1280/profile-treasury-document-images_1280/1/1707633798438?e=1775088000&v=beta&t=kTCUnYWiET-vU3pUrYiKXakSoWSMF8Oz28nsi1RBdUg"
+                }
               ].map((course) => (
-                <div key={course.name} className="p-4 bg-white border border-zinc-100 rounded-xl hover:shadow-md transition-shadow">
-                  <h5 className="text-sm font-bold text-zinc-800">{course.name}</h5>
-                  <p className="text-xs text-zinc-400 font-medium uppercase tracking-wider">{course.school}</p>
-                </div>
+                course.url ? (
+                  <a 
+                    key={course.name} 
+                    href={course.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="p-4 bg-white border border-zinc-100 rounded-xl hover:shadow-md transition-shadow group"
+                  >
+                    <div className="flex items-start justify-between">
+                      <h5 className="text-sm font-bold text-zinc-800 group-hover:text-zinc-600 transition-colors">{course.name}</h5>
+                      <ExternalLink className="w-3 h-3 text-zinc-300 group-hover:text-zinc-500" />
+                    </div>
+                    <p className="text-xs text-zinc-400 font-medium uppercase tracking-wider">{course.school}</p>
+                  </a>
+                ) : (
+                  <div key={course.name} className="p-4 bg-white border border-zinc-100 rounded-xl hover:shadow-md transition-shadow">
+                    <h5 className="text-sm font-bold text-zinc-800">{course.name}</h5>
+                    <p className="text-xs text-zinc-400 font-medium uppercase tracking-wider">{course.school}</p>
+                  </div>
+                )
               ))}
             </div>
           </Section>
@@ -269,18 +336,11 @@ export default function App() {
         </div>
       </main>
 
-      <footer className="bg-white border-t border-zinc-200 py-20">
+      <footer className="bg-white border-t border-zinc-200 py-10">
         <div className="max-w-6xl mx-auto px-6 text-center">
-          <p className="text-xs font-bold uppercase tracking-[0.4em] text-zinc-400 mb-8">Let's build something together</p>
-          <motion.a 
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            href="mailto:j05hl1m@live.com" 
-            className="inline-flex items-center gap-2 px-6 py-3 bg-zinc-900 text-white rounded-full font-black text-base hover:bg-zinc-700 transition-all shadow-lg hover:shadow-xl"
-          >
-            <Mail className="w-5 h-5" />
-            EMAIL JOSH
-          </motion.a>
+          <p className="text-[10px] font-bold uppercase tracking-[0.4em] text-zinc-400">
+            © {new Date().getFullYear()} — Built with Passion
+          </p>
         </div>
       </footer>
     </div>

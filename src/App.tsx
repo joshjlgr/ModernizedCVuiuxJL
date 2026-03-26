@@ -100,8 +100,8 @@ export default function App() {
 
   const techStack = [
     "HTML5", "CSS3", "JavaScript", "React", "WordPress", "WooCommerce", "NodeJS", "Tailwindcss", "Typescript", 
-    "Figma", "Photoshop", "Git", "MySQL", "PHP", "Python", "jquery", "AJAX", "JSON", "DevTools", "ChatGPT", "Gemini", "Claude",
-    "Notion", "Copilot", "ServiceNow", "Bash", "NPM", "Perplexity", "Emergent", "Grok", "Canva", "Jira", "PowerShell", "Lightroom"
+    "Figma", "Photoshop", "Git", "MySQL", "Python", "jquery", "AJAX", "JSON", "DevTools", "Gemini", "Claude",
+    "Notion", "Copilot", "Bash", "NPM", "Perplexity", "Grok", "Canva", "Jira", "PowerShell", "Lightroom"
   ];
 
   const hobbies = [
@@ -181,7 +181,7 @@ export default function App() {
                   rel="noopener noreferrer"
                   className="text-sm font-bold text-zinc-900 hover:text-zinc-600 transition-colors flex items-center gap-1"
                 >
-                  Dip & AdvDip in Information Technology
+                  AdvDip in Information Technology
                   <ExternalLink className="w-3 h-3" />
                 </a>
                 <a 

@@ -155,7 +155,55 @@ export default function App() {
           <Section title="Education" icon={GraduationCap}>
             <div className="space-y-6">
               <div>
-                <h4 className="text-sm font-bold text-zinc-900">B.S. Business w Communications</h4>
+                <a 
+                  href="https://media.licdn.com/dms/image/v2/D562DAQGTFz0F-kbK6Q/profile-treasury-document-images_1920/B56Zik40X2HcA0-/1/1755113017468?e=1775692800&v=beta&t=d4zGdnBmU3z90rpmaKLko_h-OOw4tW_3Tc4A5GLXcTE"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm font-bold text-zinc-900 hover:text-zinc-600 transition-colors flex items-center gap-1"
+                >
+                  B.S. Computer Science
+                  <ExternalLink className="w-3 h-3" />
+                </a>
+                <a 
+                  href="https://www.brookes.ac.uk/courses/undergraduate/computer-science" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-xs font-medium text-zinc-500 uppercase tracking-wider mb-1 hover:text-zinc-900 transition-colors flex items-center gap-1"
+                >
+                  OXFORD BROOKES | 2016 – 2019
+                  <ExternalLink className="w-2.5 h-2.5" />
+                </a>
+              </div>
+              <div>
+                <a 
+                  href="https://media.licdn.com/dms/image/v2/D562DAQGcmQbB5dI5lg/profile-treasury-document-cover-images_1280/profile-treasury-document-cover-images_1280/0/1730365349682?e=1775120400&v=beta&t=9d8WI_fIsVmUqECe7R2SJT_22lIJ4b6EZUztUINgRPk"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm font-bold text-zinc-900 hover:text-zinc-600 transition-colors flex items-center gap-1"
+                >
+                  Dip & AdvDip in Information Technology
+                  <ExternalLink className="w-3 h-3" />
+                </a>
+                <a 
+                  href="https://www.facebook.com/photo/?fbid=5539153952777078&set=pb.100063876558786.-2207520000" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-xs font-medium text-zinc-500 uppercase tracking-wider mb-1 hover:text-zinc-900 transition-colors flex items-center gap-1"
+                >
+                  Informatics Academy | 2016 – 2018
+                  <ExternalLink className="w-2.5 h-2.5" />
+                </a>
+              </div>
+              <div>
+                <a 
+                  href="https://media.licdn.com/dms/image/v2/D562DAQFA4dftrFLVdA/profile-treasury-document-images_1920/profile-treasury-document-images_1920/1/1730365382989?e=1775692800&v=beta&t=E5Ez76XwjXc8EatDHNOAKlO5F4gMtjLn0mC2y8Ky3X8"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm font-bold text-zinc-900 hover:text-zinc-600 transition-colors flex items-center gap-1"
+                >
+                  B.S. Business w Communications
+                  <ExternalLink className="w-3 h-3" />
+                </a>
                 <a 
                   href="https://www.suss.edu.sg/academics/schools-college/suss-schools/school-of-business" 
                   target="_blank" 
@@ -167,14 +215,22 @@ export default function App() {
                 </a>
               </div>
               <div>
-                <h4 className="text-sm font-bold text-zinc-900">B.S. Computer Science</h4>
                 <a 
-                  href="https://www.brookes.ac.uk/courses/undergraduate/computer-science" 
+                  href="https://media.licdn.com/dms/image/v2/D562DAQGkilGdNte10g/profile-treasury-document-images_1920/B56Zik4ugkHcAs-/1/1755112993084?e=1775692800&v=beta&t=XMMSRTl21FiAnlRTLnqv01_cWlNdVqs5OJC0WPCETqc"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm font-bold text-zinc-900 hover:text-zinc-600 transition-colors flex items-center gap-1"
+                >
+                  Dip in Management Studies
+                  <ExternalLink className="w-3 h-3" />
+                </a>
+                <a 
+                  href="https://www.suss.edu.sg/programmes/detail/graduate-diploma-in-management-gdmgt?utm_source=Google&utm_medium=search&utm_campaign=postgrad_Jul+26+Intake&utm_content=sbiz_gd_management&gad_source=1&gad_campaignid=23642613546&gbraid=0AAAAADuYXCtp4MkYWMRJ-5iJj8RdxuY4o&gclid=CjwKCAjwspPOBhB9EiwATFbi5Mqub3q-VaFUy-zKEcyf_Qe5xg7NqhSUfos0fYSAIkoTIl6sB9t7yRoCmtgQAvD_BwE" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-xs font-medium text-zinc-500 uppercase tracking-wider mb-1 hover:text-zinc-900 transition-colors flex items-center gap-1"
                 >
-                  OXFORD BROOKES | 2016 – 2019
+                  SUSS | 2006 – 2008
                   <ExternalLink className="w-2.5 h-2.5" />
                 </a>
               </div>

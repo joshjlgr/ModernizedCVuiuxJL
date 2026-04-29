@@ -250,11 +250,11 @@ export default function App() {
               {[
                 { 
                   name: "Student Leader at Internship", 
-                  url: "https://media.licdn.com/dms/image/v2/D562DAQGfjjZiO0AFdQ/profile-treasury-document-images_1920/B56ZswR2LAJ4A0-/1/1766041545742?e=1775088000&v=beta&t=e3-jNhsiBGqOPtbhuwBOFQ76t21Gc0EdCRMCE5hQw9U" 
+                  url: "https://media.licdn.com/dms/image/v2/D562DAQEsfLI247h6jw/profile-treasury-image-shrink_1280_1280/B56Z3ZHUhUH4AQ-/0/1777464069094?e=1778072400&v=beta&t=jBdDpskg-y9eRGa0EzyzXf6h4eXyLVQxtIvgSUIaDXg" 
                 },
                 { 
                   name: "Initiative award Community Svc", 
-                  url: "https://media.licdn.com/dms/image/v2/D562DAQE1V0tqN_iJDg/profile-treasury-image-shrink_1280_1280/B56Zik.ghuHQAk-/0/1755114508288?e=1775055600&v=beta&t=KhGMhNHR08rokmQIvfCdQud0O2PmVueU8DGVFMtc9G4" 
+                  url: "https://media.licdn.com/dms/image/v2/D562DAQHOV7A4LzP5qw/profile-treasury-image-shrink_480_480/B56Z3ZKizzGoAM-/0/1777464914286?e=1778072400&v=beta&t=foOZnH9Rs4MbxNXtA8GRD8253MVUkmavj2XFJsfVzhY" 
                 }
               ].map((award, i) => (
                 <li key={i} className="group">

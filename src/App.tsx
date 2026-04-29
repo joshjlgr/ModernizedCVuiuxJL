@@ -250,7 +250,7 @@ export default function App() {
               {[
                 { 
                   name: "Student Leader at Internship", 
-                  url: "https://media.licdn.com/dms/image/v2/D562DAQEsfLI247h6jw/profile-treasury-image-shrink_1280_1280/B56Z3ZHUhUH4AQ-/0/1777464069094?e=1778072400&v=beta&t=jBdDpskg-y9eRGa0EzyzXf6h4eXyLVQxtIvgSUIaDXg" 
+                  url: "https://media.licdn.com/dms/image/v2/D562DAQHwe-NZU7WEGw/profile-treasury-image-shrink_160_160/B56Z3ZQw2SI8Ak-/0/1777466547107?e=1778072400&v=beta&t=pcaXgl_GkpB6Kzh1WTCdLrUZR4MToMXDk5G9Hkp9rH4" 
                 },
                 { 
                   name: "Initiative award Community Svc", 

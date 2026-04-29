@@ -329,9 +329,9 @@ export default function App() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {[
                 { 
-                  name: "AI Mastermind", 
-                  school: "OutSkill",
-                  url: "https://www.outskill.com/"
+                  name: "Understanding Agentic AI", 
+                  school: "Agent Academy AI",
+                  url: "https://media.licdn.com/dms/image/v2/D562DAQGgTMjlvMNUQw/profile-treasury-image-shrink_480_480/B56Z3Y6Ax1J4AM-/0/1777460579932?e=1778068800&v=beta&t=q_Ioq49WUZaWBGhXCknBF8JbBhrDZzMPhJ1nIrz1guc"
                 },
                 { 
                   name: "UIUX Design Program", 

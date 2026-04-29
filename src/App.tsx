@@ -99,9 +99,9 @@ export default function App() {
   ];
 
   const techStack = [
-    "HTML5", "CSS3", "JavaScript", "React", "WordPress", "WooCommerce", "NodeJS", "Tailwindcss", "Typescript", 
-    "Figma", "Photoshop", "Git", "MySQL", "Python", "jquery", "AJAX", "JSON", "DevTools", "Gemini", "Claude",
-    "Notion", "Copilot", "Bash", "NPM", "Perplexity", "Grok", "Canva", "Jira", "PowerShell", "Lightroom"
+    "DeepSeek", "Gemini", "Claude", "Copilot", "Perplexity", "Grok", "HTML5", "CSS3", "JavaScript", "React", 
+    "WordPress", "WooCommerce", "NodeJS", "Tailwindcss", "Figma", "Photoshop", "Git", "MySQL", "Python", 
+    "jquery", "AJAX", "JSON", "DevTools", "Notion", "Bash", "NPM", "Canva", "Jira", "PowerShell", "Lightroom"
   ];
 
   const hobbies = [
@@ -336,37 +336,37 @@ export default function App() {
                 { 
                   name: "UIUX Design Program", 
                   school: "SIT", 
-                  url: "https://media.licdn.com/dms/image/v2/D562DAQG7imwUJXN3Bg/profile-treasury-document-images_1280/B56Zm68tr6G4AU-/1/1759778104747?e=1775088000&v=beta&t=qtW3yywexlfBf4xGj_4gRVoNXqZHaWMUfIpSWLCJA9s" 
+                  url: "https://media.licdn.com/dms/image/v2/D562DAQG7imwUJXN3Bg/profile-treasury-document-cover-images_480/B56Zm68tr6G4BI-/0/1759778104581?e=1778068800&v=beta&t=_70HihtMn1Lfe955E8MCd0I920LZLNHJAIGMsB2iVjQ" 
                 },
                 { 
                   name: "Front End Development", 
                   school: "Great Learning",
-                  url: "https://media.licdn.com/dms/image/v2/D562DAQEd1Jd61QUdxw/profile-treasury-document-images_1280/B56Z0lbKKeJQAU-/1/1774449372406?e=1775088000&v=beta&t=3lUPtwPaLxvY-MhxabDflRv7K9gqq_mhwNlvWzENDJI"
+                  url: "https://media.licdn.com/dms/image/v2/D562DAQEd1Jd61QUdxw/profile-treasury-document-cover-images_1920/B56Z0lbKKeJQBM-/0/1774449372514?e=1778068800&v=beta&t=q0767Rk4iRNlIP0K7YoNHDnRpLSxRX-QGICG-uQSvhQ"
                 },
                 { 
                   name: "Material CSS", 
                   school: "Udemy",
-                  url: "https://media.licdn.com/dms/image/v2/D562DAQELNx_h_nc5yw/profile-treasury-document-images_1280/B56Zg4Id.XHMAc-/1/1753288402520?e=1775088000&v=beta&t=8y2x3-CIoBRMIdd5kS2qnVSFORYDrFnQ4YgboYm3TYc"
+                  url: "https://media.licdn.com/dms/image/v2/D562DAQELNx_h_nc5yw/profile-treasury-document-cover-images_800/B56Zg4Id.XHMBE-/0/1753288402390?e=1778068800&v=beta&t=oGAuU1SD5oV_p8MpkzMWbH2zFLRDqwOWc2jcc_8pXjU"
                 },
                 { 
                   name: "Adobe Campaign", 
                   school: "Adobe Digital Learning",
-                  url: "https://media.licdn.com/dms/image/v2/D562DAQG3SizlDXyGYA/profile-treasury-document-images_1280/B56Zg4ICh3G4AU-/1/1753288293478?e=1775088000&v=beta&t=E7lxuSTA1FWpaP4VnNUJEb7RliOACWQV9AqPzsa5cHc"
+                  url: "https://media.licdn.com/dms/image/v2/D562DAQG3SizlDXyGYA/profile-treasury-document-images_1280/B56Zg4ICh3G4AU-/1/1753288293478?e=1778112000&v=beta&t=OtArdO3S253OKitWWA_26aYQjMyptEsQ_7UAHYPCo3g"
                 },
                 { 
                   name: "Business Analysis Certification", 
                   school: "IIL",
-                  url: "https://media.licdn.com/dms/image/v2/D562DAQGxihzUxkdq5w/profile-treasury-document-images_1280/profile-treasury-document-images_1280/1/1689787878270?e=1775088000&v=beta&t=ymPfLk-xRovsj3xI6w2K2pFfJhIb1VlfvDZGWpORz0M"
+                  url: "https://media.licdn.com/dms/image/v2/D562DAQGxihzUxkdq5w/profile-treasury-document-cover-images_1280/profile-treasury-document-cover-images_1280/0/1689787878305?e=1778068800&v=beta&t=1L4c2cz5pux_OMBstLh80IYdsbUBT4wXU7rriElMyEc"
                 },
                 { 
                   name: "Full Stack Java Developer", 
                   school: "NTUC Learning Hub",
-                  url: "https://media.licdn.com/dms/image/v2/D562DAQFpHP6up09gSw/profile-treasury-document-cover-images_1280/profile-treasury-document-cover-images_1280/0/1706251657335?e=1775055600&v=beta&t=6Agso1FPRK7mTUEEy-YBVZx8en3HRn7hoZ1t_OCAYpI"
+                  url: "https://media.licdn.com/dms/image/v2/D562DAQFpHP6up09gSw/profile-treasury-document-cover-images_1280/profile-treasury-document-cover-images_1280/0/1706251657335?e=1778068800&v=beta&t=re84aN6N0o-BCrgsYdG1PgE5rC6h2QhAUveg1Tkn07c"
                 },
                 { 
                   name: "Lean Six Sigma", 
                   school: "HEWLETT PACKARD",
-                  url: "https://media.licdn.com/dms/image/v2/D562DAQEgF5NSD-8JJA/profile-treasury-document-images_1280/profile-treasury-document-images_1280/1/1707633798438?e=1775088000&v=beta&t=kTCUnYWiET-vU3pUrYiKXakSoWSMF8Oz28nsi1RBdUg"
+                  url: "https://media.licdn.com/dms/image/v2/D562DAQEgF5NSD-8JJA/profile-treasury-document-cover-images_1280/profile-treasury-document-cover-images_1280/0/1707633798479?e=1778068800&v=beta&t=-C8BS9FnFZjHASof9vdfJCuGSLv-e0TE30OJXtlK3rs"
                 }
               ].map((course) => (
                 course.url ? (
